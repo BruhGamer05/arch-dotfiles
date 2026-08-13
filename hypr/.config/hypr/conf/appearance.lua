@@ -1,8 +1,8 @@
 -- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
 hl.config({
     general = {
-        gaps_in  = 5,
-        gaps_out = 20,
+        gaps_in  = 3,
+        gaps_out = 5,
 
         border_size = 2,
 
@@ -11,7 +11,7 @@ hl.config({
             inactive_border = "rgba(595959aa)",
         },
 
-        resize_on_border = false,
+        resize_on_border = true,
         allow_tearing    = false,
 
         layout = "dwindle",
@@ -22,7 +22,7 @@ hl.config({
         rounding_power = 2,
 
         active_opacity   = 1.0,
-        inactive_opacity = 1.0,
+        inactive_opacity = 0.95,
 
         shadow = {
             enabled      = true,
@@ -43,3 +43,4 @@ hl.config({
         enabled = true,
     },
 })
+

@@ -2,6 +2,7 @@ local programs = require("conf.programs")
 local mainMod  = "SUPER"
 
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(programs.terminal))
+hl.bind("SUPER + SHIFT + RETURN", hl.dsp.exec_cmd("firefox"))
 hl.bind(mainMod .. " + W",      hl.dsp.window.close())
 hl.bind(mainMod .. " + M",      hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 hl.bind(mainMod .. " + E",      hl.dsp.exec_cmd(programs.fileManager))

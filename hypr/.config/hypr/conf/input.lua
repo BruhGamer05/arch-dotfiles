@@ -6,8 +6,10 @@ hl.config({
         kb_options = "",
         kb_rules   = "",
 
-        follow_mouse = 1,
-        sensitivity  = 0.1,
+        follow_mouse    = 1,
+        sensitivity     = 0.4,
+        accel_profile   = "adaptive",
+        force_no_accel  = false,
 
         touchpad = {
             natural_scroll = true,
