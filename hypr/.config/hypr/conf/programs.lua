@@ -1,5 +1,5 @@
 return {
     terminal    = "kitty",
-    fileManager = "thunar",
-    menu        = "wofi --show drun",
+    fileManager = "nautilus",
+    menu        = "rofi -show drun",
 }
