@@ -1,4 +1,5 @@
 -- conf/appearance.lua
+local colors = require("conf.colors")
 
 hl.config({
     general = {
@@ -8,8 +9,8 @@ hl.config({
         border_size = 2,
 
         col = {
-            active_border   = "rgba(899296ff)", -- was $outline
-            inactive_border = "rgba(40484bff)", -- was $outline_variant
+            active_border   = colors.outline,
+            inactive_border = colors.outline_variant,
         },
 
         resize_on_border = false,
