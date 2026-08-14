@@ -1,9 +1,8 @@
 # 🍚 Arch Linux + Hyprland Dotfiles
 
-Welcome to my personal Arch Linux dotfiles repository! This setup is a highly customized, visually cohesive Wayland environment built around **Hyprland**. It features dynamic color generation, a custom Waybar, and automated installation via GNU Stow.
+Welcome to my personal Arch Linux dotfiles repository! This setup is a customized Wayland environment built around **Hyprland**. It features dynamic color generation, a custom Waybar, and automated installation via GNU Stow.
 
 ![Desktop Preview](assets/preview.png)
-*(Note: To add your screenshot, create an `assets` folder in this repo, drop your image in as `preview.png`, and it will load here!)*
 
 ## 🌟 Core Components
 
