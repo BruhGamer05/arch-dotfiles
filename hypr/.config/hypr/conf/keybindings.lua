@@ -9,7 +9,7 @@ hl.bind(mainMod .. " + SHIFT + RETURN", hl.dsp.exec_cmd("firefox"))             
 hl.bind(mainMod .. " + E",              hl.dsp.exec_cmd(programs.fileManager))   -- Nautilus
 hl.bind(mainMod .. " + SPACE",          hl.dsp.exec_cmd("rofi -show drun"))      -- Rofi App Launcher
 hl.bind(mainMod .. " + N",              hl.dsp.exec_cmd("swaync-client -t -sw")) -- SwayNC Notification Center
-hl.bind(mainMod .. " + SHIFT + N",      hl.dsp.exec_cmd("swaync-client -C"))
+hl.bind(mainMod .. " + SHIFT + N",      hl.dsp.exec_cmd("swaync-client --close-all"))
 hl.bind(mainMod .. " + ESCAPE",         hl.dsp.exec_cmd("bash -c '$HOME/.config/hypr/scripts/Wlogout.sh'")) -- Wlogout Power Menu Script
 hl.bind(mainMod .. " + L",              hl.dsp.exec_cmd("bash -c '$HOME/.config/hypr/scripts/hyprlock.sh'"))
 
