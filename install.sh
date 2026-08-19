@@ -8,6 +8,6 @@ yay -S --needed - < pkglist.txt
 
 # 2. Link all configurations using Stow
 echo "Symlinking dotfiles..."
-stow cava fastfetch gtk gtk2 hypr kitty matugen rofi swaync waybar wlogout zsh
+stow cava fastfetch gtk gtk2 hypr kitty matugen nvim rofi swaync waybar wlogout zsh
 
 echo "Installation complete! Please reboot your system."
