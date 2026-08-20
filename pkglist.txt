@@ -79,6 +79,7 @@ ttf-jetbrains-mono-nerd
 ttf-nerd-fonts-symbols
 unzip
 vim
+visual-studio-code-bin
 waybar
 wev
 wget
