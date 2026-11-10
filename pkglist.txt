@@ -4,12 +4,16 @@ awww
 base
 base-devel
 bat
+bind
+bitwarden
+bitwarden-cli
 blueman
 bluez
 bluez-utils
 brightnessctl
 cava
 cliphist
+cloudflare-warp-bin
 dhcpcd
 durdraw
 efibootmgr
@@ -42,6 +46,7 @@ mako
 man-db
 man-pages
 matugen-bin
+mpv
 nano
 nautilus
 neovim
@@ -52,9 +57,12 @@ noto-fonts
 noto-fonts-emoji
 ntfs-3g
 nwg-look
+obs-studio
+obsidian
 openssh
 os-prober
 pacman-contrib
+pamixer
 pavucontrol
 pipewire
 pipewire-alsa
@@ -67,6 +75,7 @@ ripgrep
 rofi
 sbctl
 slurp
+spotifast-bin
 starship
 stow
 sudo
@@ -80,6 +89,7 @@ ttf-nerd-fonts-symbols
 unzip
 vim
 visual-studio-code-bin
+vlc
 waybar
 wev
 wget
@@ -92,5 +102,6 @@ wofi
 xdg-desktop-portal-hyprland
 yay-bin
 yay-bin-debug
+zapfast-bin
 zoxide
 zsh

@@ -1,30 +1,32 @@
 hl.config({
-    input = {
-        kb_layout  = "us",
-        kb_variant = "",
-        kb_model   = "",
-        kb_options = "",
-        kb_rules   = "",
+	input = {
+		kb_layout = "us",
+		kb_variant = "",
+		kb_model = "",
+		kb_options = "",
+		kb_rules = "",
 
-        follow_mouse    = 1,
-        sensitivity     = 0.4,
-        accel_profile   = "adaptive",
-        force_no_accel  = false,
+		follow_mouse = 1,
+		sensitivity = 0.4,
+		accel_profile = "adaptive",
+		force_no_accel = false,
 
-        touchpad = {
-            natural_scroll = true,
-        },
-    },
+		touchpad = {
+			natural_scroll = true,
+		},
+	},
 })
 
 hl.gesture({
-    fingers   = 3,
-    direction = "horizontal",
-    action    = "workspace"
+	fingers = 3,
+	direction = "horizontal",
+	action = "workspace",
 })
 
 -- Example per-device config
--- hl.device({
---     name        = "epic-mouse-v1",
---     sensitivity = -0.5,
--- })
+hl.device({
+	name = "atk-nk-mouse-nano-dongle",
+	sensitivity = -0.5,
+	scroll_factor = 1.5,
+	5,
+})
