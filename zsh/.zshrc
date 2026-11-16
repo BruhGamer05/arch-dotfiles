@@ -111,4 +111,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias sex="z cp/problems && nvim"
-
+alias checkbat='upower -i $(upower -e | grep BAT) | grep -E "energy-rate|time to empty|state"'

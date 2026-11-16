@@ -1,0 +1,45 @@
+/* Wallpaper picker theme: grid of large thumbnails.
+   Used by ~/.config/hypr/scripts/wppicker.sh */
+@import "config.rasi"
+
+window {
+    width:                       1100px;
+}
+
+mainbox {
+    orientation:                 vertical;
+    spacing:                     20px;
+    padding:                     20px;
+    children:                    [ "inputbar", "listview" ];
+}
+
+inputbar {
+    children:                    [ "textbox-prompt-colon", "entry" ];
+}
+
+listview {
+    columns:                     3;
+    lines:                       2;
+    spacing:                     15px;
+    layout:                      vertical;
+    fixed-columns:               true;
+    fixed-height:                true;
+    cycle:                       true;
+    scrollbar:                   false;
+}
+
+element {
+    orientation:                 vertical;
+    spacing:                     8px;
+    padding:                     10px;
+}
+
+element-icon {
+    size:                        240px;
+    horizontal-align:            0.5;
+}
+
+element-text {
+    horizontal-align:            0.5;
+    vertical-align:              0.5;
+}

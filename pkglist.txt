@@ -15,6 +15,7 @@ cava
 cliphist
 cloudflare-warp-bin
 dhcpcd
+dosfstools
 durdraw
 efibootmgr
 elinks
@@ -36,6 +37,7 @@ hyprpaper
 hyprpicker
 hyprpolkitagent
 hyprsunset
+inxi
 iwd
 kitty
 linux
@@ -46,6 +48,7 @@ mako
 man-db
 man-pages
 matugen-bin
+memtest86+-efi
 mpv
 nano
 nautilus
@@ -56,6 +59,7 @@ nm-connection-editor
 noto-fonts
 noto-fonts-emoji
 ntfs-3g
+ntfsprogs
 nwg-look
 obs-studio
 obsidian
@@ -68,6 +72,7 @@ pipewire
 pipewire-alsa
 pipewire-pulse
 polkit-kde-agent
+powertop
 qt5-wayland
 qt6-wayland
 reflector
@@ -79,6 +84,7 @@ spotifast-bin
 starship
 stow
 sudo
+supergfxctl
 swaync
 thunar
 tlp
@@ -101,7 +107,6 @@ woff2-font-awesome
 wofi
 xdg-desktop-portal-hyprland
 yay-bin
-yay-bin-debug
 zapfast-bin
 zoxide
 zsh
